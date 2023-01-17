@@ -1,0 +1,6 @@
+2022-07-09 12:44:01,187 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-ISBHOH2 with PID 9516 (F:\IntelliJ Idea\intellij Workspace\billingsystem\target\classes started by MSD in F:\IntelliJ Idea\intellij Workspace\billingsystem)
+2022-07-09 12:44:01,202 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-09 12:44:51,889 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 57.615 seconds (JVM running for 65.484)
+2022-07-09 14:37:08,428 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-ISBHOH2 with PID 11624 (F:\IntelliJ Idea\intellij Workspace\billingsystem\target\classes started by MSD in F:\IntelliJ Idea\intellij Workspace\billingsystem)
+2022-07-09 14:37:08,554 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-09 14:37:46,432 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 46.001 seconds (JVM running for 60.063)

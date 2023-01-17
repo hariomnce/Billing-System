@@ -1,0 +1,47 @@
+2022-07-18 10:32:44,960 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 9316 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-18 10:32:44,970 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-18 10:39:28,372 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 5832 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-18 10:39:28,382 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-18 10:39:48,625 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 21.807 seconds (JVM running for 23.253)
+2022-07-18 21:00:51,823 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 11184 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-18 21:00:51,823 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-18 21:01:07,900 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 17.159 seconds (JVM running for 20.511)
+2022-07-19 10:16:11,518 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 3628 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 10:16:11,528 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 10:16:28,249 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 18.44 seconds (JVM running for 20.225)
+2022-07-19 11:32:15,013 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 8676 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 11:32:15,021 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 11:32:29,181 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.668 seconds (JVM running for 17.037)
+2022-07-19 11:35:25,485 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 7232 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 11:35:25,489 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 11:35:40,031 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 16.196 seconds (JVM running for 17.591)
+2022-07-19 11:38:06,178 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 12280 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 11:38:06,188 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 11:38:20,210 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.436 seconds (JVM running for 17.001)
+2022-07-19 11:41:21,237 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 10904 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 11:41:21,241 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 11:41:35,673 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.924 seconds (JVM running for 17.388)
+2022-07-19 13:39:39,530 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 4412 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 13:39:39,540 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 13:39:53,717 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.786 seconds (JVM running for 17.21)
+2022-07-19 13:45:38,409 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 13520 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 13:45:38,411 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 13:45:54,723 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 17.933 seconds (JVM running for 19.987)
+2022-07-19 14:02:43,482 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 7888 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 14:02:43,485 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 14:02:57,549 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.654 seconds (JVM running for 17.081)
+2022-07-19 14:20:16,360 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 8152 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 14:20:16,364 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 14:20:30,855 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.954 seconds (JVM running for 17.364)
+2022-07-19 14:23:37,884 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 1304 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 14:23:37,889 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 14:23:52,401 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.884 seconds (JVM running for 17.268)
+2022-07-19 14:55:42,367 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 1820 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 14:55:42,372 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 14:55:56,921 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 16.068 seconds (JVM running for 17.478)
+2022-07-19 17:42:13,969 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 5520 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 17:42:13,969 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 17:42:28,195 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.808 seconds (JVM running for 17.193)
+2022-07-19 22:02:43,634 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 12840 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-19 22:02:43,634 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-19 22:02:59,711 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 17.173 seconds (JVM running for 20.149)

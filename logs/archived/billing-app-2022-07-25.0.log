@@ -1,0 +1,186 @@
+2022-07-25 13:29:04,259 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 17808 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 13:29:04,259 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 13:29:19,674 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 16.914 seconds (JVM running for 18.745)
+2022-07-25 13:33:55,822 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 11932 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 13:33:55,824 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 13:34:10,225 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.783 seconds (JVM running for 17.37)
+2022-07-25 13:36:20,953 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 6652 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 13:36:20,953 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 13:36:37,930 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 18.355 seconds (JVM running for 20.092)
+2022-07-25 13:37:02,694 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 11148 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 13:37:02,701 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 13:37:17,630 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 16.325 seconds (JVM running for 17.802)
+2022-07-25 13:38:26,891 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 6496 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 13:38:26,891 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 13:38:42,728 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 17.23 seconds (JVM running for 18.628)
+2022-07-25 13:41:11,040 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 14532 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 13:41:11,040 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 13:41:26,664 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 17.166 seconds (JVM running for 18.617)
+2022-07-25 13:44:13,266 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 6996 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 13:44:13,276 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 13:44:29,748 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 17.752 seconds (JVM running for 19.192)
+2022-07-25 13:45:55,756 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 9796 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 13:45:55,756 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 13:46:11,956 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 17.667 seconds (JVM running for 19.438)
+2022-07-25 14:19:52,488 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 18464 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 14:19:52,508 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 14:20:08,877 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 18.909 seconds (JVM running for 22.219)
+2022-07-25 14:23:57,760 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 14260 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 14:23:57,762 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 14:24:12,589 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.968 seconds (JVM running for 17.464)
+2022-07-25 14:28:29,552 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 8932 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 14:28:29,552 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 14:28:43,542 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.163 seconds (JVM running for 16.665)
+2022-07-25 14:30:09,330 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 16036 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 14:30:09,346 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 14:30:26,698 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 18.537 seconds (JVM running for 20.337)
+2022-07-25 14:35:05,131 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 14384 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 14:35:05,139 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 14:35:25,928 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 21.929 seconds (JVM running for 23.374)
+2022-07-25 14:38:14,867 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 11252 (E:\intellij Workspace\billingsystem\target\classes started by Ravindra in E:\intellij Workspace\billingsystem)
+2022-07-25 14:38:14,867 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 14:38:29,039 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 15.334 seconds (JVM running for 16.685)
+2022-07-25 14:47:42,978 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 3996 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 14:47:42,980 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 14:51:21,140 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 14104 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 14:51:21,143 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 14:53:08,967 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 8480 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 14:53:08,969 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 14:54:23,006 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 15688 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 14:54:23,009 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 14:57:55,659 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 9068 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 14:57:55,661 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 15:10:56,369 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 12836 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 15:10:56,372 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:10:46,200 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 13744 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:10:46,203 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:14:49,508 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 16312 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:14:49,510 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:20:17,782 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 18028 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:20:17,785 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:22:26,338 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 17788 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:22:26,342 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:24:25,010 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 17080 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:24:25,013 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:25:14,117 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 50.239 seconds (JVM running for 51.097)
+2022-07-25 16:27:36,222 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 17120 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:27:36,225 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:27:44,921 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.54 seconds (JVM running for 10.372)
+2022-07-25 16:36:06,573 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 6476 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:36:06,576 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:36:15,635 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.835 seconds (JVM running for 10.713)
+2022-07-25 16:36:56,210 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 8920 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:36:56,213 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:37:05,399 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.065 seconds (JVM running for 11.005)
+2022-07-25 16:39:50,313 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 11068 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:39:50,316 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:39:58,534 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.057 seconds (JVM running for 9.907)
+2022-07-25 16:44:02,688 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 17388 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:44:02,690 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:44:13,765 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 11.916 seconds (JVM running for 12.792)
+2022-07-25 16:47:44,546 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 5176 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:47:44,549 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:47:53,587 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 11.01 seconds (JVM running for 12.617)
+2022-07-25 16:49:26,551 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 7688 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 16:49:26,554 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 16:49:34,658 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 8.931 seconds (JVM running for 9.768)
+2022-07-25 17:12:14,539 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 9196 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:12:14,542 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:12:24,201 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.541 seconds (JVM running for 11.494)
+2022-07-25 17:13:15,265 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 14396 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:13:15,267 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:13:23,846 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.465 seconds (JVM running for 10.352)
+2022-07-25 17:15:37,980 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 11592 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:15:37,982 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:16:21,659 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 8260 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:16:21,661 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:16:32,075 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 11.277 seconds (JVM running for 12.343)
+2022-07-25 17:17:38,050 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 15024 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:17:38,053 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:17:46,229 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.011 seconds (JVM running for 9.873)
+2022-07-25 17:18:30,397 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 11564 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:18:30,399 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:18:39,449 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.959 seconds (JVM running for 10.828)
+2022-07-25 17:22:27,154 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 3864 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:22:27,157 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:22:36,078 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 11896 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:22:36,081 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:22:43,996 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 8.762 seconds (JVM running for 9.618)
+2022-07-25 17:23:03,659 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 2120 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:23:03,662 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:23:11,967 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.123 seconds (JVM running for 9.99)
+2022-07-25 17:46:50,025 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 8308 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:46:50,028 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:46:58,393 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.208 seconds (JVM running for 10.048)
+2022-07-25 17:47:11,275 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 18176 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:47:11,277 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:47:20,243 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.886 seconds (JVM running for 10.882)
+2022-07-25 17:48:29,987 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 8824 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:48:29,989 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:48:40,102 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 11.06 seconds (JVM running for 11.986)
+2022-07-25 17:48:53,865 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 17592 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:48:53,867 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:49:02,545 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.508 seconds (JVM running for 10.489)
+2022-07-25 17:50:18,089 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 16912 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 17:50:18,092 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 17:50:28,019 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.9 seconds (JVM running for 11.843)
+2022-07-25 18:07:13,319 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 14716 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 18:07:13,321 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 18:07:22,889 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.503 seconds (JVM running for 11.361)
+2022-07-25 18:10:09,604 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 13172 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 18:10:09,606 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 18:10:18,630 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.875 seconds (JVM running for 10.7)
+2022-07-25 18:11:24,864 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 3256 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 18:11:24,867 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 18:11:33,356 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.603 seconds (JVM running for 10.424)
+2022-07-25 18:13:52,424 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 15084 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 18:13:52,426 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 18:14:01,927 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.422 seconds (JVM running for 11.391)
+2022-07-25 20:36:39,191 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 19032 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 20:36:39,194 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 20:36:55,441 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 17.371 seconds (JVM running for 19.435)
+2022-07-25 20:40:50,353 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 308 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 20:40:50,357 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 20:40:59,000 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.722 seconds (JVM running for 10.672)
+2022-07-25 20:49:09,030 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 16796 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 20:49:09,032 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 20:49:19,445 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 11.242 seconds (JVM running for 12.161)
+2022-07-25 20:58:12,639 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 4044 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 20:58:12,641 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 20:58:21,363 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.551 seconds (JVM running for 10.421)
+2022-07-25 20:59:18,466 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 17428 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 20:59:18,469 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 20:59:27,714 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.056 seconds (JVM running for 10.932)
+2022-07-25 21:04:15,802 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 17140 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:04:15,804 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:04:24,579 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.737 seconds (JVM running for 10.689)
+2022-07-25 21:17:51,595 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 18336 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:17:51,597 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:18:00,783 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.004 seconds (JVM running for 10.902)
+2022-07-25 21:20:58,985 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 10856 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:20:58,987 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:21:08,031 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.868 seconds (JVM running for 10.848)
+2022-07-25 21:22:33,174 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 16068 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:22:33,176 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:22:42,250 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.966 seconds (JVM running for 10.866)
+2022-07-25 21:27:08,690 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 18720 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:27:08,692 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:27:17,853 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.074 seconds (JVM running for 10.914)
+2022-07-25 21:30:13,694 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 11856 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:30:13,698 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:30:23,565 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.8 seconds (JVM running for 11.99)
+2022-07-25 21:32:28,218 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 14908 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:32:28,221 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:32:37,136 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.028 seconds (JVM running for 10.928)
+2022-07-25 21:35:50,288 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 4432 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:35:50,290 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:35:59,038 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.57 seconds (JVM running for 10.439)
+2022-07-25 21:37:41,888 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 14800 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:37:41,890 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:37:51,798 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.647 seconds (JVM running for 11.676)
+2022-07-25 21:44:30,201 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 17008 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:44:30,203 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:44:39,148 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 9.776 seconds (JVM running for 10.642)
+2022-07-25 21:45:37,509 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-RAJ with PID 15868 (E:\billingsystem\target\classes started by Android in E:\billingsystem)
+2022-07-25 21:45:37,512 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-25 21:45:47,467 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 10.876 seconds (JVM running for 11.78)

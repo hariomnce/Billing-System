@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Signup Page</title>
+<!--
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+--> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+</head>
+
+<body>
+<section class="vh-100" style="background-color: #eee;">
+    <div class="container h-100" align="center">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-lg-12 col-xl-11">
+                <div class="card text-black" style="border-radius: 25px;">
+                    <div class="card-body p-md-5">
+
+                          <!--<div th:if="${session.message}" th:classappend="${session.message.type}"class="alert" role="alert">
+                         <p class="text-center" th:text="${session.message.content}"></p>
+                         <th:block th:text="${#session.removeAttribute('message')}"></th:block>
+                           </div>-->
+                        <div class="row justify-content-center">
+                            <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+
+
+                                <form id="customerForm">
+                                   <!-- th:action="@{api/private/users/customer}"
+                                      th:object="${requestBody}">-->
+<!--                                   <form id="formId">-->
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input class="form-control" id="fullName" name="fullName" type="text"/>
+                                                   <!--required th:classappend="${#fields.hasErrors('name') ? 'is-invalid':''}"-->
+                                            <label class="form-label" for="firstName">Full Name</label>
+                                            Please provide Full Name.
+                                            </div>
+
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input class="form-control" id="firstName" name="firstName" type="text"/>
+                                            <!--required th:classappend="${#fields.hasErrors('name') ? 'is-invalid':''}"-->
+                                            <label class="form-label" for="firstName">Your Name</label>
+                                            Please provide Your First Name.
+                                        </div>
+
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input class="form-control" id="middleName" name="middleName" type="text"/>
+
+                                                <!--required th:classappend="${#fields.hasErrors('name') ? 'is-invalid':''}"-->
+
+                                                <label class="form-label" for="middleName">Your Name</label>
+                                                Please provide Your Middle Name.
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input class="form-control" id="lastName" name="lastName" type="text"/>
+                                                      <!-- required
+                                                       th:classappend="${#fields.hasErrors('name') ? 'is-invalid':''}"-->
+
+                                                <label class="form-label" for="lastName">Your Name</label>
+                                                Please provide Your Last Name.
+                                            </div>
+                                        </div>
+
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input name="email" type="email" id="email" class="form-control" required />
+                                            <label class="form-label" for="email">Your Email</label>
+                                              Please provide a valid Email Id.
+                                        </div>
+                                    </div>
+
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input class="form-control" id="mobileNo" name="mobileNo" type="text"/>
+                                                <!--required
+                                                       th:classappend="${#fields.hasErrors('mobile') ? 'is-invalid':''}"
+                                                       type="text"/>-->
+                                                <label class="form-label" for="landmark">Your Mobile No.</label>
+                                                Please provide Mobile No.
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                        <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input name="password" type="password" id="password" class="form-control" />
+
+                                            <label class="form-label" for="password">Password</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="d-flex flex-row align-items-center mb-4">
+                                        <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                                        <div class="form-outline flex-fill mb-0">
+                                            <input name="rePassword" type="password" id="rePassword" class="form-control" />
+
+                                            <label class="form-label" for="rePassword">Repeat your password</label>
+                                        </div>
+                                    </div>
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input class="form-control" id="address1" name="address1" type="text"/>
+                                                <!--required
+                                                       th:classappend="${#fields.hasErrors('address1') ? 'is-invalid':''}"-->
+
+                                                <label class="form-label" for="address1">Your Address</label>
+                                                Please provide Your Address1.
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input class="form-control" id="address2" name="address2" type="text"/>
+                                               <!-- required
+                                                       th:classappend="${#fields.hasErrors('address2') ? 'is-invalid':''}"-->
+
+                                                <label class="form-label" for="address2">Your Address</label>
+                                                Please provide Your Address2.
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input class="form-control" id="city" name="city" type="text"/>
+                                                <!--required
+                                                       th:classappend="${#fields.hasErrors('address1') ? 'is-invalid':''}"-->
+
+                                                <label class="form-label" for="city">City</label>
+                                                Please provide Your City Name.
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input class="form-control" id="state" name="state" type="text"/>
+                                                <!--required
+                                                       th:classappend="${#fields.hasErrors('state') ? 'is-invalid':''}"-->
+
+                                                <label class="form-label" for="state">Your State</label>
+                                                Please provide Your State Name.
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input class="form-control" id="country" name="country" type="text"/>
+                                                       <!--required
+                                                       th:classappend="${#fields.hasErrors('country') ? 'is-invalid':''}"-->
+
+                                                <label class="form-label" for="country">Your Country</label>
+                                                Please provide Your Country Name.
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input class="form-control" id="landmark" name="landmark" type="text"/>
+                                               <!-- required
+                                                       th:classappend="${#fields.hasErrors('landmark') ? 'is-invalid':''}"-->
+
+                                                <label class="form-label" for="landmark">Your Landmark</label>
+                                                Please provide Your Landmark.
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-row align-items-center mb-4">
+                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                            <div class="form-outline flex-fill mb-0">
+                                                <input class="form-control" id="mobile" name="mobile" type="text"/>
+                                                <!--required
+                                                       th:classappend="${#fields.hasErrors('mobile') ? 'is-invalid':''}"
+                                                       type="text"/>-->
+                                                <label class="form-label" for="landmark">Your 2nd Mobile No.</label>
+                                                Please provide 2nd Mobile No.
+                                            </div>
+                                        </div>
+
+
+
+                                    <!-- about Field -->
+
+                                   <!-- <div class="form-group">
+
+				    <textarea name="about" placeholder="Enter Something about Yourself"  style="width:350px" rows="10">
+				    &lt;!&ndash;th:value="${user.about}"   &ndash;&gt;
+				    </textarea>
+                                    </div>
+-->
+                                    <!-- Term and condition  -->
+
+                                    <!--<div class="form-group form-check">
+                                        <input
+                                                type="checkbox"
+                                                name="agreement"
+                                                class="form-check-input me-2"
+                                                id="agreement" />
+                                        <label for="agreement">
+                                            I agree all statements in <a href="#!">Terms of service</a>
+                                        </label>
+                                    </div>
+-->
+                                    <div class="d-flex justify-content-center mx-6 mb-3 mb-lg-4">
+                                        <button type="submit" id="submit" class="btn btn-primary btn-lg">Register</button>
+                                    <!--onclick="submitData()" -->
+                                        <button type="reset" class= "btn btn-warning text-white" >
+                                            Reset
+                                        </button>
+                                    </div>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                            <!--<div class="col-md-8 col-lg-4 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+
+                                <img src="/image/SignUp.jpg"
+                                     class="img-fluid" alt="Sample image">
+
+
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    //adding click event on submit button
+    $(document).ready(function() {
+        $("#customerForm").submit(function(event)
+        {
+        event.preventDefault();
+        ajaxPost();
+        });
+        function ajaxPost()
+        {
+            var formData=
+            {
+                "fullName": $('#fullName').val(),
+                "user":
+                {
+                    "type": null,
+                    "emailId": $('#email').val(),
+                    "password": $('#password').val(),
+                    "rePassword": $('#rePassword').val(),
+                    "firstName": $('#firstName').val(),
+                    "middleName": $('#middleName').val(),
+                    "lastName": $('#lastName').val (),
+                    "mobileNo": $('#mobileNo').val(),
+                    "addressList":[
+                        {
+                            "address1": $('#address1').val(),
+                            "address2": $("#address2").val(),
+                            "city": $('#city').val(),
+                            "state": $('#state').val(),
+                            "country": $('#country').val(),
+                            "landmark": $('#landmark').val(),
+                            "mobile": $('#mobile').val(),
+                        }
+                    ],
+                }
+            }
+            $.ajax({
+                type:"POST",
+                url: "http://localhost:8080/api/private/users/customers",
+                data: JSON.stringify(formData),
+                contentType: "application/json",
+                dataType: 'json',
+                success:function(result)
+                {
+                console.log(result);
+                }
+            });
+        }
+    console.log( "ready!" );
+    });
+</script>
+
+<!--<script>
+  function submitData()
+    {
+    var fullName=$('#fullName').val();
+    var emailId=$('#email').val();
+    var password=$('#password').val();
+    var rePassword=$('#rePassword').val();
+    var firstName=$('#firstName').val();
+    var middleName=$('#middleName').val();
+    var lastName=$('#lastName').val();
+    var mobileNo=$('#mobileNo').val();
+    var address1=$('#address1').val();
+    var address2=$("#address2").val();
+    var city=$('#city').val();
+    var state=$('#state').val();
+    var country=$('#country').val();
+    var landmark=$('#landmark').val();
+    var mobile=$('#mobile').val();
+
+
+    jsonObject=
+        {
+        "fullName":"",
+        "emailId": "",
+        "password": "",
+        "rePassword": "",
+        "firstName": "",
+        "middleName": "",
+        "lastName": "",
+        "mobileNo": "",
+        "addressList":
+            [
+                  {
+                    "address1": "",
+                    "address2": "",
+                    "city": "",
+                    "state": "",
+                    "country": "",
+                    "landmark": "",
+                    "mobile": ""
+                  }
+            ]
+        }
+jsonObject.fullName=fullName;
+jsonObject.emailId=emailId;
+jsonObject.password=password;
+jsonObject.rePassword=rePassword;
+jsonObject.firstName=firstName;
+jsonObject.middleName=middleName;
+jsonObject.lastName=lastName;
+jsonObject.mobileNo=mobileNo;
+jsonObject.address1=address1;
+jsonObject.address2=address2;
+jsonObject.city=city;
+jsonObject.state=state;
+jsonObject.country=country;
+jsonObject.landmark=landmark;
+jsonObject.mobile=mobile;
+
+var str=JSON.stringify(jsonObject);
+var requestBody=JSON.parse(str);
+
+document.write(str);
+document.getElementById('formId').innerHTML=str;
+}
+</script>-->
+
+</body>
+</html>

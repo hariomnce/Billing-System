@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <style>
+.register{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+</style>
+</head>
+<body>
+<section>
+<div class="container register">
+                <div class="row">
+                    <div class="col-md-3 register-left">
+                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                        <h3>Welcome</h3>
+                        <p>You are 30 seconds away from earning your own money!</p>
+
+                    </div>
+                    <div class="col-md-9 register-right">
+                        <h3 class="register-heading">Apply as a Employee</h3>
+                        <form id="employeeForm">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                                <div class="row register-form">
+								<div class="col-md-12">
+								<div class="form-group">
+                                            <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Full Name *" value="" tabindex="1" />
+                                        </div>
+								</div>
+								
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name *" value="" tabindex="2" />
+                                        </div>
+									</div>
+									<div class="col-md-4">
+										 <div class="form-group">
+                                            <input type="text" class="form-control" id="middleName" name="middleName" placeholder="Middle Name *" value=""  tabindex="3"/>
+                                        </div>
+									</div>
+									<div class="col-md-4">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name *" value=""  tabindex="4"/>
+                                        </div>
+									</div>
+								
+								<div class="col-md-12">
+								<div class="form-group">
+                                            <div class="maxl">
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="male" checked tabindex="5">
+                                                    <span> Male </span> 
+                                                </label>
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="female" tabindex="6">
+                                                    <span>Female </span> 
+                                                </label>
+                                            </div>
+                                        </div>
+									</div>
+									<div class="col-md-6">
+                                        <div class="form-group">
+                                            <input name="email" type="email" class="form-control" id="email" placeholder="Email Id *" value="" tabindex="7" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input name="password" type="password" id="password" class="form-control"  placeholder="Password *" value="" tabindex="9" />
+                                        </div>
+                                        
+										 <div class="form-group">
+                                            <input type="Text" class="form-control" id="address1" name="address1" placeholder="Address1 *" value=""  tabindex="11"/>
+                                        </div>
+										<div class="form-group">
+                                            <input type="Text" class="form-control" id="address2" name="address2" placeholder="Address2 *" value="" tabindex="13" />
+                                        </div>
+										<div class="form-group">
+                                            <input type="Text" class="form-control" id="landmark" name="landmark" placeholder="Landmark *" value="" tabindex="15" />
+                                        </div>
+                                    </div>
+									
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" tabindex="8"  id="mobileNo" name="mobileNo" minlength="10" maxlength="10" class="form-control" placeholder="Mobile No. *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input name="rePassword" type="password" id="rePassword" tabindex="10" class="form-control" placeholder="Confirm Password *" value="" />
+                                        </div>
+										 <div class="form-group">
+                                            <input type="Text" tabindex="12"class="form-control" id="city" name="city" placeholder="City *" value="" />
+                                        </div>
+										<div class="form-group">
+                                            <input type="Text" tabindex="14" class="form-control" id="state" name="state" placeholder="State *" value="" />
+                                        </div>
+										<div class="form-group">
+                                            <input type="Text" tabindex="16" class="form-control" id="country" name="country" placeholder="Country *" value="" />
+                                        </div>
+                                        
+                                        
+                                        <input type="submit" id="submit" class="btnRegister"  value="Register" tabindex="17"/>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+</section>
+<script>
+    //adding click event on submit button
+    $(document).ready(function() {
+    $("#employeeForm").submit(function(event)
+    {
+    event.preventDefault();
+    ajaxPost();
+    });
+    function ajaxPost()
+    {
+    var formData=
+    {
+    "fullName": $('#fullName').val(),
+    "user":
+    {
+    "type": null,
+    "emailId": $('#email').val(),
+    "password": $('#password').val(),
+    "rePassword": $('#rePassword').val(),
+    "firstName": $('#firstName').val(),
+    "middleName": $('#middleName').val(),
+    "lastName": $('#lastName').val (),
+    "mobileNo": $('#mobileNo').val(),
+    "addressList":[
+                {
+                "address1": $('#address1').val(),
+                "address2": $("#address2").val(),
+                "city": $('#city').val(),
+                "state": $('#state').val(),
+                "country": $('#country').val(),
+                "landmark": $('#landmark').val(),
+                "mobile": "",
+                }
+                    ],
+    }
+    }
+    $.ajax({
+    type:"POST",
+    url: "http://localhost:8080/api/private/users/employees",
+    data: JSON.stringify(formData),
+    contentType: "application/json",
+    dataType: 'json',
+    success:function(result)
+    {
+
+    console.log(result);
+    }
+    });
+    }
+    console.log( "ready!" );
+    });
+</script>
+
+</body>
+</html>

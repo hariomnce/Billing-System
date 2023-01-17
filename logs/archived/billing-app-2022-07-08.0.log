@@ -1,0 +1,6 @@
+2022-07-08 11:40:41,676 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-ISBHOH2 with PID 9972 (F:\IntelliJ Idea\intellij Workspace\billingsystem\target\classes started by MSD in F:\IntelliJ Idea\intellij Workspace\billingsystem)
+2022-07-08 11:40:41,679 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-07-08 11:41:17,376 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BillingsystemApplication in 37.706 seconds (JVM running for 42.548)
+2022-07-08 12:00:41,456 INFO com.itgarden.controller.TestController [http-nio-9091-exec-7] This is test log1
+2022-07-08 12:00:41,501 INFO com.itgarden.controller.TestController [http-nio-9091-exec-7] This is test log2
+2022-07-08 12:00:41,502 INFO com.itgarden.controller.TestController [http-nio-9091-exec-7] This is test log3

@@ -1,0 +1,19 @@
+{
+  "kitchenOrderCode": 1,
+  "customerId": 1,
+  "productList":
+  [
+
+    {
+      "id":1,
+      "quantity": 5
+    },
+    {
+      "id": 2,
+      "quantity": 5
+    }
+  ],
+"quantity":10,
+"kitchenOrderStatus":"PENDING"
+
+}

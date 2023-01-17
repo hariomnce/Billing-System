@@ -1,0 +1,23 @@
+{
+  "orgName": "Chickenette",
+  "user": {
+    "emailId": "manish@abc.com",
+    "password": "123",
+    "rePassword": "123",
+    "firstName": "manish",
+    "middleName": "",
+    "lastName": "singh",
+    "mobileNo": "3838383",
+    "addressList": [
+      {
+        "address1": "abc",
+        "address2": "pahariya",
+        "city": "varanasi",
+        "state": "UP",
+        "country": "India",
+        "landmark": "",
+        "mobile": "17171717"
+      }
+    ]
+  }
+}
