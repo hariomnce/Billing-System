@@ -24,65 +24,63 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter {
 
-    @Autowired
-    private AuthenticationService userDetailsService;
+	@Autowired
+	private AuthenticationService userDetailsService;
 
-    @Autowired
-    JwtUtils jwtUtils;
+	@Autowired
+	JwtUtils jwtUtils;
 
-    @Autowired
-    private JwtTokenRepository jwtTokenRepository;
+	@Autowired
+	private JwtTokenRepository jwtTokenRepository;
 
-    @Override
-    protected void doFilterInternal(HttpServletRequest httpServletRequest,
-                                    HttpServletResponse httpServletResponse, FilterChain filterChain) throws ServletException, IOException {
+	@Override
+	protected void doFilterInternal(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse,
+			FilterChain filterChain) throws ServletException, IOException {
 
+		final String authHeader = httpServletRequest.getHeader("Authorization");
+		String userName = null;
+		String accessToken = null;
 
-        final String authHeader = httpServletRequest.getHeader("Authorization");
-        String userName = null;
-        String accessToken = null;
+		try {
+			if (!StringUtils.isEmpty(authHeader) && authHeader.startsWith("Bearer ")) {
+				accessToken = authHeader.substring(7);
+				userName = jwtUtils.extractUsername(accessToken, TokenType.ACCESS_TOKEN);
+				UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
+				if (jwtUtils.isValidToken(accessToken, TokenType.ACCESS_TOKEN)) {
+					UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(
+							userDetails, null, userDetails.getAuthorities());
+					usernamePasswordAuthenticationToken
+							.setDetails(new WebAuthenticationDetailsSource().buildDetails(httpServletRequest));
+					SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
+				} else {
+					System.out.println("Authentication is failed: Can't set authentication in Security Context");
+				}
+			}
+		} catch (ExpiredJwtException e) {
+			throw new InvalidInputException(e.getMessage());
+		} catch (BadCredentialsException e) {
+			throw new InvalidInputException(e.getMessage());
+		} catch (Exception ex) {
+			throw ex;
+		}
+		filterChain.doFilter(httpServletRequest, httpServletResponse);
+	}
 
-        try {
-            if (!StringUtils.isEmpty(authHeader) && authHeader.startsWith("Bearer ")) {
-                accessToken = authHeader.substring(7);
-                userName = jwtUtils.extractUsername(accessToken,TokenType.ACCESS_TOKEN);
-                UserDetails userDetails = userDetailsService.loadUserByUsername(userName);
-                if (jwtUtils.isValidToken(accessToken, TokenType.ACCESS_TOKEN)) {
-                    UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(
-                            userDetails, null, userDetails.getAuthorities());
-                    usernamePasswordAuthenticationToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(httpServletRequest));
-                    SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
-                } else {
-                    System.out.println("Authentication is failed: Can't set authentication in Security Context");
-                }
-            }
-        } catch (ExpiredJwtException e) {
-            throw new InvalidInputException(e.getMessage());
-        } catch (BadCredentialsException e) {
-            throw new InvalidInputException(e.getMessage());
-        } catch (Exception ex) {
-            throw ex;
-        }
-        filterChain.doFilter(httpServletRequest, httpServletResponse);
-    }
+	private void allowForRefreshToken(ExpiredJwtException ex, HttpServletRequest request) {
+		UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(
+				null, null, null);
+		SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
+		request.setAttribute("claims", ex.getClaims());
 
-    private void allowForRefreshToken(ExpiredJwtException ex, HttpServletRequest request) {
-        UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(
-                null, null, null);
-        SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
-        request.setAttribute("claims", ex.getClaims());
+	}
 
-    }
-
-    private UserDetails getContext() {
-        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        UserDetails userDetails = (UserDetails) authentication.getPrincipal();
-        return userDetails;
-    }
-
+	private UserDetails getContext() {
+		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+		UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+		return userDetails;
+	}
 
 }

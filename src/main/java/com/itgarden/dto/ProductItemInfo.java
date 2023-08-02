@@ -1,19 +1,41 @@
 package com.itgarden.dto;
 
 import com.itgarden.common.staticdata.StockStatus;
-import lombok.Getter;
-import lombok.Setter;
 
-
-
-@Getter
-@Setter
 public class ProductItemInfo extends BaseInfo {
 
-    private String productItemCode;
+	private String productItemCode;
+	private ProductInfo productInfo;
+	private StockStatus stockStatus;
 
-    private ProductInfo productInfo;
+	public String getProductItemCode() {
+		return productItemCode;
+	}
 
-    private StockStatus stockStatus;
+	public void setProductItemCode(String productItemCode) {
+		this.productItemCode = productItemCode;
+	}
+
+	public ProductInfo getProductInfo() {
+		return productInfo;
+	}
+
+	public void setProductInfo(ProductInfo productInfo) {
+		this.productInfo = productInfo;
+	}
+
+	public StockStatus getStockStatus() {
+		return stockStatus;
+	}
+
+	public void setStockStatus(StockStatus stockStatus) {
+		this.stockStatus = stockStatus;
+	}
+
+	@Override
+	public String toString() {
+		return "ProductItemInfo [productItemCode=" + productItemCode + ", productInfo=" + productInfo + ", stockStatus="
+				+ stockStatus + "]";
+	}
 
 }

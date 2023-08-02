@@ -12,37 +12,34 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Optional;
 
-
-
 @Component
 public class BillingBaseService<T extends BaseObject, ID extends Serializable> {
 
-    @Autowired
-    private AbstractBaseRepository<T, ID> repository;
+	@Autowired
+	private AbstractBaseRepository<T, ID> repository;
 
-    public BaseObject save(T entity) {
-        return (BaseObject)repository.save(entity);
-    }
+	public BaseObject save(T entity) {
+		return (BaseObject) repository.save(entity);
+	}
 
-    public List<T> findAll() {
+	public List<T> findAll() {
 
-        return repository.findAll();
-    }
+		return repository.findAll();
+	}
 
-    public Optional<T> findById(ID id) {
+	public Optional<T> findById(ID id) {
 
-        return repository.findById(id);
-    }
+		return repository.findById(id);
+	}
 
-    public void deleteById(ID id) {
+	public void deleteById(ID id) {
 
-        repository.deleteById(id);
-    }
+		repository.deleteById(id);
+	}
 
-    public void delete(T type) {
+	public void delete(T type) {
 
-        repository.delete(type);
-    }
-
+		repository.delete(type);
+	}
 
 }

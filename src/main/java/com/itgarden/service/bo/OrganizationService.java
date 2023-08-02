@@ -23,56 +23,53 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 @Service
 public class OrganizationService extends BaseService {
 
-    @Autowired
-    private OrganizationRepository organizationRepository;
+	@Autowired
+	private OrganizationRepository organizationRepository;
 
-    @Autowired
-    private CodeGenerator codeGenerator;
+	@Autowired
+	private CodeGenerator codeGenerator;
 
-    @Autowired
-    private RoleService roleService;
+	@Autowired
+	private RoleService roleService;
 
-    @Autowired
-    private PasswordEncoder passwordEncoder;
+	@Autowired
+	private PasswordEncoder passwordEncoder;
 
-    public ResponseMessage save(OrganizationInfo organizationInfo) throws Exception {
-        ResponseMessage response = roleService.findResourceById(Constants.SUPER_ADMIN_ROLE_ID);
-        UserRoleInfo userRoleInfo = (UserRoleInfo) response.getResponseClassType();
-        if (userRoleInfo != null) {
-            throw new DuplicateKeyFoundException
-                    ("The Super Admin already created: can't create more than one Super Admin Role");
-        }
-        Organization organization = OrganizationMapper.INSTANCE
-                .organizationInfoToOrganization(organizationInfo);
-        String orgCode = codeGenerator.newCode(CodeType.ORG_CODE);
-        organization.setOrgCode(orgCode);
-        organization.getUser().setUserType(UserType.OWNER.name());
-        organization.getUser().setPassword(passwordEncoder.encode(organization.getUser().getPassword()));
-        List<Role> roles = new ArrayList<>();
-        Role role = roleService.findByName(ROLES.SUPER_ADMIN_ROLE.name());
-        roles.add(role);
-        organization.getUser().setRoles(roles);
-        Organization newOrganization = organizationRepository.save(organization);
+	public ResponseMessage save(OrganizationInfo organizationInfo) throws Exception {
+		ResponseMessage response = roleService.findResourceById(Constants.SUPER_ADMIN_ROLE_ID);
+		UserRoleInfo userRoleInfo = (UserRoleInfo) response.getResponseClassType();
+		if (userRoleInfo != null) {
+			throw new DuplicateKeyFoundException(
+					"The Super Admin already created: can't create more than one Super Admin Role");
+		}
+		Organization organization = OrganizationMapper.INSTANCE.organizationInfoToOrganization(organizationInfo);
+		String orgCode = codeGenerator.newCode(CodeType.ORG_CODE);
+		organization.setOrgCode(orgCode);
+		organization.getUser().setUserType(UserType.OWNER.name());
+		organization.getUser().setPassword(passwordEncoder.encode(organization.getUser().getPassword()));
+		List<Role> roles = new ArrayList<>();
+		Role role = roleService.findByName(ROLES.SUPER_ADMIN_ROLE.name());
+		roles.add(role);
+		organization.getUser().setRoles(roles);
+		Organization newOrganization = organizationRepository.save(organization);
 
-        OrganizationInfo newOrganizationInfo = OrganizationMapper.INSTANCE
-                .organizationToOrganizationInfo(newOrganization);
-        ResponseMessage responseMessage = ResponseMessage.withResponseData(newOrganizationInfo,
-                Constants.SUCCESS_STATUS,Constants.INFO_TYPE);
-        return responseMessage;
-    }
+		OrganizationInfo newOrganizationInfo = OrganizationMapper.INSTANCE
+				.organizationToOrganizationInfo(newOrganization);
+		ResponseMessage responseMessage = ResponseMessage.withResponseData(newOrganizationInfo,
+				Constants.SUCCESS_STATUS, Constants.INFO_TYPE);
+		return responseMessage;
+	}
 
-    @Override
-    public ResponseMessage findResourceById(String id) throws Exception {
-        return null;
-    }
+	@Override
+	public ResponseMessage findResourceById(String id) throws Exception {
+		return null;
+	}
 
-    @Override
-    public ResponseMessage findAll() throws Exception {
-        return null;
-    }
+	@Override
+	public ResponseMessage findAll() throws Exception {
+		return null;
+	}
 }

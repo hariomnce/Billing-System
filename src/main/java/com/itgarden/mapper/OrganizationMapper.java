@@ -8,13 +8,13 @@ import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
-
-
 @Mapper(implementationPackage = "mapper.impl")
 public interface OrganizationMapper {
 
-    OrganizationMapper INSTANCE =  Mappers.getMapper(OrganizationMapper.class);
-    Organization organizationInfoToOrganization(OrganizationInfo organizationInfo);
-    @InheritInverseConfiguration
-    OrganizationInfo organizationToOrganizationInfo(Organization organization);
+	OrganizationMapper INSTANCE = Mappers.getMapper(OrganizationMapper.class);
+
+	Organization organizationInfoToOrganization(OrganizationInfo organizationInfo);
+
+	@InheritInverseConfiguration
+	OrganizationInfo organizationToOrganizationInfo(Organization organization);
 }

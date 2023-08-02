@@ -6,16 +6,14 @@ import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
-
-
 @Mapper(implementationPackage = "mapper.impl")
 public interface CategoryMapper {
 
-    CategoryMapper INSTANCE = Mappers.getMapper(CategoryMapper.class);
+	CategoryMapper INSTANCE = Mappers.getMapper(CategoryMapper.class);
 
-    Category categoryInfoToCategory(CategoryInfo categoryInfo);
+	Category categoryInfoToCategory(CategoryInfo categoryInfo);
 
-    @InheritInverseConfiguration
-    CategoryInfo categoryToCategoryInfo(Category category);
+	@InheritInverseConfiguration
+	CategoryInfo categoryToCategoryInfo(Category category);
 
 }

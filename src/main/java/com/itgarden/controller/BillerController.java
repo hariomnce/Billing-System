@@ -18,23 +18,23 @@ import java.util.List;
 @RequestMapping("api/private/bills")
 public class BillerController {
 
-        @Autowired
-        private BillerService billerService;
+	@Autowired
+	private BillerService billerService;
 
-        @PostMapping("/payments")
-        public ResponseEntity<ResponseMessage<?>> doPayment(@RequestBody PaymentRequest paymentRequest) {
-            String mobileNo = paymentRequest.getCustomerMobileNo();
-            List<String> productItemCode = paymentRequest.getProductItemCode();
-            BillerInfo billerInfo = billerService.save(paymentRequest);
-            ResponseMessage responseMessage = ResponseMessage.withResponseData(billerInfo,"","");
-            return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.CREATED);
-        }
+	@PostMapping("/payments")
+	public ResponseEntity<ResponseMessage<?>> doPayment(@RequestBody PaymentRequest paymentRequest) {
+		String mobileNo = paymentRequest.getCustomerMobileNo();
+		List<String> productItemCode = paymentRequest.getProductItemCode();
+		BillerInfo billerInfo = billerService.save(paymentRequest);
+		ResponseMessage responseMessage = ResponseMessage.withResponseData(billerInfo, "", "");
+		return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.CREATED);
+	}
 
-    @PutMapping("/payments/cancel")
-    public ResponseEntity<ResponseMessage<?>> doCancelPayment(@RequestBody PaymentRequest paymentRequest) {
-        List<String> productItemCode = paymentRequest.getProductItemCode();
-        List<PaymentInfo> paymentInfos = billerService.cancel(paymentRequest);
-        ResponseMessage responseMessage = ResponseMessage.withResponseData(paymentInfos,"","");
-        return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
-    }
+	@PutMapping("/payments/cancel")
+	public ResponseEntity<ResponseMessage<?>> doCancelPayment(@RequestBody PaymentRequest paymentRequest) {
+		List<String> productItemCode = paymentRequest.getProductItemCode();
+		List<PaymentInfo> paymentInfos = billerService.cancel(paymentRequest);
+		ResponseMessage responseMessage = ResponseMessage.withResponseData(paymentInfos, "", "");
+		return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
+	}
 }

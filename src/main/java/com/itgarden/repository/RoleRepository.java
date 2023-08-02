@@ -9,13 +9,10 @@ import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
+public interface RoleRepository extends JpaRepository<Role, Long> {
 
+	Optional<Role> findByName(String name);
 
-
-public interface RoleRepository extends JpaRepository<Role,Long> {
-
-    Optional<Role> findByName(String name);
-
-    @Query(value = "select * from user_role where role_id = ?1",nativeQuery = true)
-    Object[] getSuperAdmin(long roleId);
+	@Query(value = "select * from user_role where role_id = ?1", nativeQuery = true)
+	Object[] getSuperAdmin(long roleId);
 }

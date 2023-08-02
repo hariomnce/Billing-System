@@ -3,10 +3,9 @@ package com.itgarden.repository;
 import com.itgarden.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+public interface UserRepository extends JpaRepository<User, Long> {
 
+	User findByEmailId(String emailId);
 
-public interface UserRepository extends JpaRepository<User,Long> {
-
-    User findByEmailId(String emailId);
-    User findByMobileNo(String mobileNo);
+	User findByMobileNo(String mobileNo);
 }

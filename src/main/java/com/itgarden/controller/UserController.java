@@ -1,6 +1,5 @@
 package com.itgarden.controller;
 
-
 //import com.itgarden.dto.CustomerInfo;
 import com.itgarden.dto.CustomerInfo;
 import com.itgarden.dto.EmployeeInfo;
@@ -18,27 +17,26 @@ public class UserController {
 //    @Autowired
 //    private UserRepository userRepository;
 
-    @GetMapping("/signup")
-    public String userForm(Model m)
-    {
-    //m.addAttribute("title", "Signup Page");
-    m.addAttribute("requestBody",new CustomerInfo());
-    return "signup";
-    }
-    @GetMapping("/employee")
-    public String employeeForm(Model m)
-    {
-        //m.addAttribute("title", "Signup Page");
-        m.addAttribute("requestBody",new EmployeeInfo());
-        return "dashboard/index";
-    }
-    @GetMapping("/form")
-    public String form(Model m)
-    {
-        //m.addAttribute("title", "Signup Page");
-       // m.addAttribute("requestBody",new EmployeeInfo());
-        return "dashboard/form";
-    }
+	@GetMapping("/signup")
+	public String userForm(Model m) {
+		// m.addAttribute("title", "Signup Page");
+		m.addAttribute("requestBody", new CustomerInfo());
+		return "signup";
+	}
+
+	@GetMapping("/employee")
+	public String employeeForm(Model m) {
+		// m.addAttribute("title", "Signup Page");
+		m.addAttribute("requestBody", new EmployeeInfo());
+		return "dashboard/index";
+	}
+
+	@GetMapping("/form")
+	public String form(Model m) {
+		// m.addAttribute("title", "Signup Page");
+		// m.addAttribute("requestBody",new EmployeeInfo());
+		return "dashboard/form";
+	}
 
 //    @RequestMapping(value="/signup", method = RequestMethod.POST)
 //    public String processForm(@ModelAttribute("user")User user)
@@ -47,4 +45,4 @@ public class UserController {
 //
 //        return "signup";
 //    }
-    }
+}

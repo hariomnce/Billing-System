@@ -6,16 +6,15 @@ import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
-
-
 @Mapper(implementationPackage = "mapper.impl")
 public interface EmployeeMapper {
 
+	EmployeeMapper INSTANCE = Mappers.getMapper(EmployeeMapper.class);
 
-    EmployeeMapper INSTANCE =  Mappers.getMapper(EmployeeMapper.class);
-    Employee employeeInfoToEmployee(EmployeeInfo employeeInfo);
-    @InheritInverseConfiguration
-    EmployeeInfo employeeToEmployeeInfo(Employee employee);
+	Employee employeeInfoToEmployee(EmployeeInfo employeeInfo);
+
+	@InheritInverseConfiguration
+	EmployeeInfo employeeToEmployeeInfo(Employee employee);
 
 //    @AfterMapping
 //    default void afterMapping(@MappingTarget Employee employee, EmployeeDto employeeDto) {

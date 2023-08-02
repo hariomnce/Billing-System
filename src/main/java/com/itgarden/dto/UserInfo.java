@@ -1,59 +1,116 @@
 package com.itgarden.dto;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import java.util.List;
 
-
-
-@Getter
-@Setter
 //@JsonInclude(JsonInclude.Include.NON_NULL)
 public class UserInfo extends BaseInfo {
 
+	private String emailId;
+	private String password;
+	private String rePassword;
+	private String firstName;
+	private String middleName;
+	private String lastName;
+	private String mobileNo;
+	private List<AddressInfo> addressList;
+	private List<RoleInfo> roles;
+	private EmployeeInfo employee;
+	private String userType;
 
-    private String emailId;
+	public String getEmailId() {
+		return emailId;
+	}
 
-    private String password;
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
 
-    private String rePassword;
+	public String getPassword() {
+		return password;
+	}
 
-    private String firstName;
+	public void setPassword(String password) {
+		this.password = password;
+	}
 
-    private String middleName;
+	public String getRePassword() {
+		return rePassword;
+	}
 
-    private String lastName;
+	public void setRePassword(String rePassword) {
+		this.rePassword = rePassword;
+	}
 
-    private String mobileNo;
+	public String getFirstName() {
+		return firstName;
+	}
 
-    private List<AddressInfo> addressList;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
 
-    private List<RoleInfo> roles;
+	public String getMiddleName() {
+		return middleName;
+	}
 
-    private EmployeeInfo employee;
+	public void setMiddleName(String middleName) {
+		this.middleName = middleName;
+	}
 
-    private String userType;
+	public String getLastName() {
+		return lastName;
+	}
 
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
 
+	public String getMobileNo() {
+		return mobileNo;
+	}
 
+	public void setMobileNo(String mobileNo) {
+		this.mobileNo = mobileNo;
+	}
 
-    @Override
-    public String toString() {
-        return "UserInfo{" +
-                "emailId='" + emailId + '\'' +
-                ", password='" + password + '\'' +
-                ", rePassword='" + rePassword + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", middleName='" + middleName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", mobileNo='" + mobileNo + '\'' +
-                ", addressList=" + addressList +
-                ", roles=" + roles +
-                ", employee=" + employee +
-                ", userType='" + userType + '\'' +
-                ", id=" + id +
-                ", type='" + type + '\'' +
-                '}';
-    }
+	public List<AddressInfo> getAddressList() {
+		return addressList;
+	}
+
+	public void setAddressList(List<AddressInfo> addressList) {
+		this.addressList = addressList;
+	}
+
+	public List<RoleInfo> getRoles() {
+		return roles;
+	}
+
+	public void setRoles(List<RoleInfo> roles) {
+		this.roles = roles;
+	}
+
+	public EmployeeInfo getEmployee() {
+		return employee;
+	}
+
+	public void setEmployee(EmployeeInfo employee) {
+		this.employee = employee;
+	}
+
+	public String getUserType() {
+		return userType;
+	}
+
+	public void setUserType(String userType) {
+		this.userType = userType;
+	}
+
+	@Override
+	public String toString() {
+		return "UserInfo [emailId=" + emailId + ", password=" + password + ", rePassword=" + rePassword + ", firstName="
+				+ firstName + ", middleName=" + middleName + ", lastName=" + lastName + ", mobileNo=" + mobileNo
+				+ ", addressList=" + addressList + ", roles=" + roles + ", employee=" + employee + ", userType="
+				+ userType + "]";
+	}
+
 }

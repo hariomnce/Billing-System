@@ -6,36 +6,32 @@ import com.itgarden.mapper.BaseMapper;
 
 import javax.annotation.Generated;
 
-@Generated(
-    value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-06-26T02:23:18+0530",
-    comments = "version: 1.4.1.Final, compiler: javac, environment: Java 1.8.0_271 (Oracle Corporation)"
-)
+@Generated(value = "org.mapstruct.ap.MappingProcessor", date = "2022-06-26T02:23:18+0530", comments = "version: 1.4.1.Final, compiler: javac, environment: Java 1.8.0_271 (Oracle Corporation)")
 public class BaseMapperImpl implements BaseMapper {
 
-    @Override
-    public BaseObject baseInfoToBaseObject(BaseInfo baseInfo) {
-        if ( baseInfo == null ) {
-            return null;
-        }
+	@Override
+	public BaseObject baseInfoToBaseObject(BaseInfo baseInfo) {
+		if (baseInfo == null) {
+			return null;
+		}
 
-        BaseObject baseObject = new BaseObject();
+		BaseObject baseObject = new BaseObject();
 
-        baseObject.setId( baseInfo.getId() );
+		baseObject.setId(baseInfo.getId());
 
-        return baseObject;
-    }
+		return baseObject;
+	}
 
-    @Override
-    public BaseInfo baseObjectToBaseInfo(BaseObject baseObject) {
-        if ( baseObject == null ) {
-            return null;
-        }
+	@Override
+	public BaseInfo baseObjectToBaseInfo(BaseObject baseObject) {
+		if (baseObject == null) {
+			return null;
+		}
 
-        BaseInfo baseInfo = new BaseInfo();
+		BaseInfo baseInfo = new BaseInfo();
 
-        baseInfo.setId( baseObject.getId() );
+		baseInfo.setId(baseObject.getId());
 
-        return baseInfo;
-    }
+		return baseInfo;
+	}
 }

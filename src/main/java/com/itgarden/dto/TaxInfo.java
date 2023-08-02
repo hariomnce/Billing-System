@@ -1,22 +1,46 @@
 package com.itgarden.dto;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import javax.persistence.Column;
 import javax.validation.constraints.NotEmpty;
 
-
-
-@Getter
-@Setter
 public class TaxInfo extends BaseInfo {
 
-    @NotEmpty(message = "HSN Code can't be empty")
-    private String hsnCode;
+	@NotEmpty(message = "HSN Code can't be empty")
+	private String hsnCode;
 
-    private float taxPercentage;
+	private float taxPercentage;
 
-    @NotEmpty(message = "Tax description can't be empty")
-    private String taxDescription;
+	@NotEmpty(message = "Tax description can't be empty")
+	private String taxDescription;
+
+	public String getHsnCode() {
+		return hsnCode;
+	}
+
+	public void setHsnCode(String hsnCode) {
+		this.hsnCode = hsnCode;
+	}
+
+	public float getTaxPercentage() {
+		return taxPercentage;
+	}
+
+	public void setTaxPercentage(float taxPercentage) {
+		this.taxPercentage = taxPercentage;
+	}
+
+	public String getTaxDescription() {
+		return taxDescription;
+	}
+
+	public void setTaxDescription(String taxDescription) {
+		this.taxDescription = taxDescription;
+	}
+
+	@Override
+	public String toString() {
+		return "TaxInfo [hsnCode=" + hsnCode + ", taxPercentage=" + taxPercentage + ", taxDescription=" + taxDescription
+				+ "]";
+	}
+
 }

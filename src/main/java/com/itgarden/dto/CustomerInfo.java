@@ -1,26 +1,38 @@
 package com.itgarden.dto;
 
-import lombok.Getter;
-import lombok.Setter;
-
-
-
-@Getter
-@Setter
 public class CustomerInfo extends BaseInfo {
 
-    private String fullName;
+	private String fullName;
+	private String customerCode;
+	private UserInfo user;
 
-    private String customerCode;
+	public String getFullName() {
+		return fullName;
+	}
 
-    private UserInfo user;
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
 
-    @Override
-    public String toString() {
-        return "CustomerInfo{" +
-                "fullName='" + fullName + '\'' +
-                ", customerCode='" + customerCode + '\'' +
-                ", user=" + user +
-                '}';
-    }
+	public String getCustomerCode() {
+		return customerCode;
+	}
+
+	public void setCustomerCode(String customerCode) {
+		this.customerCode = customerCode;
+	}
+
+	public UserInfo getUser() {
+		return user;
+	}
+
+	public void setUser(UserInfo user) {
+		this.user = user;
+	}
+
+	@Override
+	public String toString() {
+		return "CustomerInfo [fullName=" + fullName + ", customerCode=" + customerCode + ", user=" + user + "]";
+	}
+
 }

@@ -10,10 +10,11 @@ import org.mapstruct.factory.Mappers;
 @Mapper(implementationPackage = "mapper.impl")
 public interface KitchenOrderMapper {
 
-    KitchenOrderMapper INSTANCE= Mappers.getMapper(KitchenOrderMapper.class);
-    KitchenOrder kitchenOrderInfotoKitchenOrder(KitchenOrderInfo kitchenOrderInfo);
-    @InheritInverseConfiguration
-    KitchenOrderInfo kitchenOrderToKitchenOrderInfo(KitchenOrder kitchenOrder);
+	KitchenOrderMapper INSTANCE = Mappers.getMapper(KitchenOrderMapper.class);
+
+	KitchenOrder kitchenOrderInfotoKitchenOrder(KitchenOrderInfo kitchenOrderInfo);
+
+	@InheritInverseConfiguration
+	KitchenOrderInfo kitchenOrderToKitchenOrderInfo(KitchenOrder kitchenOrder);
 
 }
-

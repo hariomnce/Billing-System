@@ -8,12 +8,13 @@ import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
-
 @Mapper(implementationPackage = "mapper.impl")
 public interface OfferMapper {
 
-    OfferMapper INSTANCE =  Mappers.getMapper(OfferMapper.class);
-    Offer offerInfoToOffer(OfferInfo offerInfo);
-    @InheritInverseConfiguration
-    OfferInfo offerToOfferInfo(Offer offer);
+	OfferMapper INSTANCE = Mappers.getMapper(OfferMapper.class);
+
+	Offer offerInfoToOffer(OfferInfo offerInfo);
+
+	@InheritInverseConfiguration
+	OfferInfo offerToOfferInfo(Offer offer);
 }

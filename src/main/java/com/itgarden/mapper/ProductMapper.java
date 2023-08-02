@@ -8,13 +8,13 @@ import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
-
-
 @Mapper(implementationPackage = "mapper.impl")
 public interface ProductMapper {
 
-    ProductMapper INSTANCE =  Mappers.getMapper(ProductMapper.class);
-    Product productInfoToProduct(ProductInfo productInfo);
-    @InheritInverseConfiguration
-    ProductInfo productToProductInfo(Product product);
+	ProductMapper INSTANCE = Mappers.getMapper(ProductMapper.class);
+
+	Product productInfoToProduct(ProductInfo productInfo);
+
+	@InheritInverseConfiguration
+	ProductInfo productToProductInfo(Product product);
 }
