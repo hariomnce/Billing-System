@@ -8,24 +8,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-
-
 @Service("userService")
 class UserService extends BaseService {
 
-    @Autowired
-    private UserRepository userRepository;
+	@Autowired
+	private UserRepository userRepository;
 
-    public ResponseMessage findResourceById(String id) throws Exception {
+	public ResponseMessage findResourceById(String id) throws Exception {
 
-        User user = userRepository.findById(Long.parseLong(id)).orElse(null);
-        ResponseMessage responseMessage = ResponseMessage.withResponseData(user, "", "");
-        return responseMessage;
+		User user = userRepository.findById(Long.parseLong(id)).orElse(null);
+		ResponseMessage responseMessage = ResponseMessage.withResponseData(user, "", "");
+		return responseMessage;
 
-    }
+	}
 
-    @Override
-    public ResponseMessage findAll() throws Exception {
-        return null;
-    }
+	@Override
+	public ResponseMessage findAll() throws Exception {
+		return null;
+	}
 }

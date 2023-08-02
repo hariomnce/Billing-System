@@ -16,17 +16,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("api/private")
 public class KitchenOrderController {
 
-    @Autowired
-    private KitchenService kitchenService;
+	@Autowired
+	private KitchenService kitchenService;
 
-    @Autowired
-    private KitchenOrderRepository kitchenOrderRepository;
+	@Autowired
+	private KitchenOrderRepository kitchenOrderRepository;
 
-    @PostMapping("/kitchen")
-    public ResponseEntity<ResponseMessage<?>> add(@RequestBody KitchenOrderInfo kitchenOrderInfo)
-    {
-        ResponseMessage responseMessage=kitchenService.save(kitchenOrderInfo);
-        return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
+	@PostMapping("/kitchen")
+	public ResponseEntity<ResponseMessage<?>> add(@RequestBody KitchenOrderInfo kitchenOrderInfo) {
+		ResponseMessage responseMessage = kitchenService.save(kitchenOrderInfo);
+		return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
 
-    }
+	}
 }

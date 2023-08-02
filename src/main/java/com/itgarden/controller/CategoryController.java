@@ -11,29 +11,28 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
-
 @RestController
 @RequestMapping("api/private/categories")
 public class CategoryController {
 
-    @Autowired
-    CategoryService categoryService;
+	@Autowired
+	CategoryService categoryService;
 
-    @PostMapping
-    public ResponseEntity<ResponseMessage<?>> save(@Valid @RequestBody CategoryInfo categoryInfo) {
-        ResponseMessage responseMessage  = categoryService.save(categoryInfo);
-        return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.CREATED);
-    }
+	@PostMapping
+	public ResponseEntity<ResponseMessage<?>> save(@Valid @RequestBody CategoryInfo categoryInfo) {
+		ResponseMessage responseMessage = categoryService.save(categoryInfo);
+		return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.CREATED);
+	}
 
-    @GetMapping("/{id}")
-    public ResponseEntity<ResponseMessage<?>> get(@PathVariable String id) throws Exception {
-        ResponseMessage responseMessage = categoryService.findResourceById(id);
-        return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
-    }
+	@GetMapping("/{id}")
+	public ResponseEntity<ResponseMessage<?>> get(@PathVariable String id) throws Exception {
+		ResponseMessage responseMessage = categoryService.findResourceById(id);
+		return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
+	}
 
-    @GetMapping()
-    public ResponseEntity<ResponseMessage<?>> getAll() throws Exception {
-        ResponseMessage responseMessage = categoryService.findAll();
-        return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
-    }
+	@GetMapping()
+	public ResponseEntity<ResponseMessage<?>> getAll() throws Exception {
+		ResponseMessage responseMessage = categoryService.findAll();
+		return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
+	}
 }

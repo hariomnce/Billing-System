@@ -1,19 +1,41 @@
 package com.itgarden.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import lombok.Getter;
-import lombok.Setter;
 
-
-
-@Getter
-@Setter
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class EmployeeInfo extends BaseInfo {
 
-    private String fullName;
+	private String fullName;
+	private String employeeCode;
+	private UserInfo user;
 
-    private String employeeCode;
+	public String getFullName() {
+		return fullName;
+	}
 
-    private UserInfo user;
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+
+	public String getEmployeeCode() {
+		return employeeCode;
+	}
+
+	public void setEmployeeCode(String employeeCode) {
+		this.employeeCode = employeeCode;
+	}
+
+	public UserInfo getUser() {
+		return user;
+	}
+
+	public void setUser(UserInfo user) {
+		this.user = user;
+	}
+
+	@Override
+	public String toString() {
+		return "EmployeeInfo [fullName=" + fullName + ", employeeCode=" + employeeCode + ", user=" + user + "]";
+	}
+
 }

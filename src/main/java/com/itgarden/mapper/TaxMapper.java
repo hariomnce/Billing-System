@@ -8,14 +8,14 @@ import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
-
-
 @Mapper(implementationPackage = "mapper.impl")
 public interface TaxMapper {
 
-    TaxMapper INSTANCE =  Mappers.getMapper(TaxMapper.class);
-    Tax taxInfoToTax(TaxInfo taxInfo);
-    @InheritInverseConfiguration
-    TaxInfo taxToTaxInfo(Tax tax);
+	TaxMapper INSTANCE = Mappers.getMapper(TaxMapper.class);
+
+	Tax taxInfoToTax(TaxInfo taxInfo);
+
+	@InheritInverseConfiguration
+	TaxInfo taxToTaxInfo(Tax tax);
 
 }

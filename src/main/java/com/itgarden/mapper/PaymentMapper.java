@@ -9,10 +9,10 @@ import org.mapstruct.factory.Mappers;
 @Mapper(implementationPackage = "mapper.impl")
 public interface PaymentMapper {
 
-    PaymentMapper INSTANCE = Mappers.getMapper(PaymentMapper.class);
+	PaymentMapper INSTANCE = Mappers.getMapper(PaymentMapper.class);
 
-    Payment paymentInfoToPayment(PaymentInfo paymentInfo);
+	Payment paymentInfoToPayment(PaymentInfo paymentInfo);
 
-    @InheritInverseConfiguration
-    PaymentInfo paymentToPaymentInfo(Payment payment);
+	@InheritInverseConfiguration
+	PaymentInfo paymentToPaymentInfo(Payment payment);
 }

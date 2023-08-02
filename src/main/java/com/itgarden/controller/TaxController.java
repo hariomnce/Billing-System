@@ -15,30 +15,28 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-
-
 @RestController
 @RequestMapping("api/private/taxes")
 public class TaxController {
 
-    @Autowired
-    private TaxService taxService;
+	@Autowired
+	private TaxService taxService;
 
-    @PostMapping
-    public ResponseEntity<ResponseMessage<?>> save(@Valid @RequestBody TaxInfo taxInfo) {
-        ResponseMessage responseMessage  = taxService.save(taxInfo);
-        return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.CREATED);
-    }
+	@PostMapping
+	public ResponseEntity<ResponseMessage<?>> save(@Valid @RequestBody TaxInfo taxInfo) {
+		ResponseMessage responseMessage = taxService.save(taxInfo);
+		return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.CREATED);
+	}
 
-    @GetMapping("/{id}")
-    public ResponseEntity<ResponseMessage<?>> get(@PathVariable String id) throws Exception {
-        ResponseMessage responseMessage = taxService.findResourceById(id);
-        return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
-    }
+	@GetMapping("/{id}")
+	public ResponseEntity<ResponseMessage<?>> get(@PathVariable String id) throws Exception {
+		ResponseMessage responseMessage = taxService.findResourceById(id);
+		return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
+	}
 
-    @GetMapping()
-    public ResponseEntity<ResponseMessage<?>> getAll() throws Exception {
-        ResponseMessage responseMessage = taxService.findAll();
-        return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
-    }
+	@GetMapping()
+	public ResponseEntity<ResponseMessage<?>> getAll() throws Exception {
+		ResponseMessage responseMessage = taxService.findAll();
+		return new ResponseEntity<ResponseMessage<?>>(responseMessage, HttpStatus.OK);
+	}
 }

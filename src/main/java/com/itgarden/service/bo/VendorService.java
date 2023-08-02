@@ -11,35 +11,32 @@ import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
 
-
-
 @Service
 public class VendorService extends UserService {
 
-    private final VendorRepository repository;
+	private final VendorRepository repository;
 
-    @Autowired
-    VendorService(VendorRepository repository) {
-        this.repository = repository;
-    }
+	@Autowired
+	VendorService(VendorRepository repository) {
+		this.repository = repository;
+	}
 
-
-    @Transactional
-    @Override
-    public ResponseMessage findResourceById(String id) throws Exception {
-        Vendor vendor = null;
-        if (id.contains("VEN")) {
-            vendor = repository.findByVendorCode(id);
-        } else {
-            vendor = repository.findById(Long.parseLong(id)).orElse(null);
-        }
-        ResponseMessage responseMessage = new ResponseMessage();
-        if (vendor != null) {
-            VendorInfo vendorInfo = VendorMapper.INSTANCE.vendorToVendorInfo(vendor);
-            responseMessage.setResponseClassType(vendorInfo);
-        } else {
-            throw new ResourceNotFoundException("Vendor not found");
-        }
-        return responseMessage;
-    }
+	@Transactional
+	@Override
+	public ResponseMessage findResourceById(String id) throws Exception {
+		Vendor vendor = null;
+		if (id.contains("VEN")) {
+			vendor = repository.findByVendorCode(id);
+		} else {
+			vendor = repository.findById(Long.parseLong(id)).orElse(null);
+		}
+		ResponseMessage responseMessage = new ResponseMessage();
+		if (vendor != null) {
+			VendorInfo vendorInfo = VendorMapper.INSTANCE.vendorToVendorInfo(vendor);
+			responseMessage.setResponseClassType(vendorInfo);
+		} else {
+			throw new ResourceNotFoundException("Vendor not found");
+		}
+		return responseMessage;
+	}
 }

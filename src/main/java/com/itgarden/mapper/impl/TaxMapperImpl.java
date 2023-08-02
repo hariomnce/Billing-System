@@ -6,42 +6,38 @@ import com.itgarden.mapper.TaxMapper;
 
 import javax.annotation.Generated;
 
-@Generated(
-    value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-06-26T02:23:18+0530",
-    comments = "version: 1.4.1.Final, compiler: javac, environment: Java 1.8.0_271 (Oracle Corporation)"
-)
+@Generated(value = "org.mapstruct.ap.MappingProcessor", date = "2022-06-26T02:23:18+0530", comments = "version: 1.4.1.Final, compiler: javac, environment: Java 1.8.0_271 (Oracle Corporation)")
 public class TaxMapperImpl implements TaxMapper {
 
-    @Override
-    public Tax taxInfoToTax(TaxInfo taxInfo) {
-        if ( taxInfo == null ) {
-            return null;
-        }
+	@Override
+	public Tax taxInfoToTax(TaxInfo taxInfo) {
+		if (taxInfo == null) {
+			return null;
+		}
 
-        Tax tax = new Tax();
+		Tax tax = new Tax();
 
-        tax.setId( taxInfo.getId() );
-        tax.setHsnCode( taxInfo.getHsnCode() );
-        tax.setTaxPercentage( taxInfo.getTaxPercentage() );
-        tax.setTaxDescription( taxInfo.getTaxDescription() );
+		tax.setId(taxInfo.getId());
+		tax.setHsnCode(taxInfo.getHsnCode());
+		tax.setTaxPercentage(taxInfo.getTaxPercentage());
+		tax.setTaxDescription(taxInfo.getTaxDescription());
 
-        return tax;
-    }
+		return tax;
+	}
 
-    @Override
-    public TaxInfo taxToTaxInfo(Tax tax) {
-        if ( tax == null ) {
-            return null;
-        }
+	@Override
+	public TaxInfo taxToTaxInfo(Tax tax) {
+		if (tax == null) {
+			return null;
+		}
 
-        TaxInfo taxInfo = new TaxInfo();
+		TaxInfo taxInfo = new TaxInfo();
 
-        taxInfo.setId( tax.getId() );
-        taxInfo.setHsnCode( tax.getHsnCode() );
-        taxInfo.setTaxPercentage( tax.getTaxPercentage() );
-        taxInfo.setTaxDescription( tax.getTaxDescription() );
+		taxInfo.setId(tax.getId());
+		taxInfo.setHsnCode(tax.getHsnCode());
+		taxInfo.setTaxPercentage(tax.getTaxPercentage());
+		taxInfo.setTaxDescription(tax.getTaxDescription());
 
-        return taxInfo;
-    }
+		return taxInfo;
+	}
 }

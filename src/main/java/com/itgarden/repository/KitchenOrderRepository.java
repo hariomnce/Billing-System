@@ -13,13 +13,11 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface KitchenOrderRepository extends JpaRepository<KitchenOrder, Long>
-{
+public interface KitchenOrderRepository extends JpaRepository<KitchenOrder, Long> {
 
-   // @Query(value = "select * from KitchenOrder k where k.user.id in (Select u.id from User u where u.mobileNo = :mobileNo)", nativeQuery = true)
+	// @Query(value = "select * from KitchenOrder k where k.user.id in (Select u.id
+	// from User u where u.mobileNo = :mobileNo)", nativeQuery = true)
 
-       KitchenOrder findByKitchenOrderCodeAndCustomerIdAndProductList
-            (String Code, String customerCode, Product product);
-
+	KitchenOrder findByKitchenOrderCodeAndCustomerIdAndProductList(String Code, String customerCode, Product product);
 
 }

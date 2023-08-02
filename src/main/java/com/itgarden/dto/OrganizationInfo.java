@@ -1,16 +1,38 @@
 package com.itgarden.dto;
 
-import lombok.Getter;
-import lombok.Setter;
-
-
-@Getter
-@Setter
 public class OrganizationInfo extends BaseInfo {
 
-    private String orgCode;
+	private String orgCode;
+	private String orgName;
+	private UserInfo user;
 
-    private String orgName;
+	public String getOrgCode() {
+		return orgCode;
+	}
 
-    private UserInfo user;
+	public void setOrgCode(String orgCode) {
+		this.orgCode = orgCode;
+	}
+
+	public String getOrgName() {
+		return orgName;
+	}
+
+	public void setOrgName(String orgName) {
+		this.orgName = orgName;
+	}
+
+	public UserInfo getUser() {
+		return user;
+	}
+
+	public void setUser(UserInfo user) {
+		this.user = user;
+	}
+
+	@Override
+	public String toString() {
+		return "OrganizationInfo [orgCode=" + orgCode + ", orgName=" + orgName + ", user=" + user + "]";
+	}
+
 }

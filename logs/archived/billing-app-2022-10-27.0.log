@@ -1,0 +1,2 @@
+2022-10-27 12:38:46,525 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BillingsystemApplication on DESKTOP-CTI2KLB with PID 19400 (E:\intellij Workspace\billingsystem2\target\classes started by Ravindra in E:\intellij Workspace\billingsystem2)
+2022-10-27 12:38:46,531 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default

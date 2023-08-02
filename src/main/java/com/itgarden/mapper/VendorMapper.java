@@ -6,15 +6,14 @@ import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
-
-
 @Mapper(implementationPackage = "mapper.impl")
 public interface VendorMapper {
 
-    VendorMapper INSTANCE = Mappers.getMapper(VendorMapper.class);
-    Vendor vendorInfoToVendor(VendorInfo vendorInfo);
-    @InheritInverseConfiguration
-    VendorInfo vendorToVendorInfo(Vendor vendor);
+	VendorMapper INSTANCE = Mappers.getMapper(VendorMapper.class);
 
+	Vendor vendorInfoToVendor(VendorInfo vendorInfo);
+
+	@InheritInverseConfiguration
+	VendorInfo vendorToVendorInfo(Vendor vendor);
 
 }

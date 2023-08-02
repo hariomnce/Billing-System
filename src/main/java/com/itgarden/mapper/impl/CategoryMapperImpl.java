@@ -6,42 +6,38 @@ import com.itgarden.mapper.CategoryMapper;
 
 import javax.annotation.Generated;
 
-@Generated(
-    value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-06-26T02:23:18+0530",
-    comments = "version: 1.4.1.Final, compiler: javac, environment: Java 1.8.0_271 (Oracle Corporation)"
-)
+@Generated(value = "org.mapstruct.ap.MappingProcessor", date = "2022-06-26T02:23:18+0530", comments = "version: 1.4.1.Final, compiler: javac, environment: Java 1.8.0_271 (Oracle Corporation)")
 public class CategoryMapperImpl implements CategoryMapper {
 
-    @Override
-    public Category categoryInfoToCategory(CategoryInfo categoryInfo) {
-        if ( categoryInfo == null ) {
-            return null;
-        }
+	@Override
+	public Category categoryInfoToCategory(CategoryInfo categoryInfo) {
+		if (categoryInfo == null) {
+			return null;
+		}
 
-        Category category = new Category();
+		Category category = new Category();
 
-        category.setId( categoryInfo.getId() );
-        category.setCategoryCode( categoryInfo.getCategoryCode() );
-        category.setName( categoryInfo.getName() );
-        category.setDescription( categoryInfo.getDescription() );
+		category.setId(categoryInfo.getId());
+		category.setCategoryCode(categoryInfo.getCategoryCode());
+		category.setName(categoryInfo.getName());
+		category.setDescription(categoryInfo.getDescription());
 
-        return category;
-    }
+		return category;
+	}
 
-    @Override
-    public CategoryInfo categoryToCategoryInfo(Category category) {
-        if ( category == null ) {
-            return null;
-        }
+	@Override
+	public CategoryInfo categoryToCategoryInfo(Category category) {
+		if (category == null) {
+			return null;
+		}
 
-        CategoryInfo categoryInfo = new CategoryInfo();
+		CategoryInfo categoryInfo = new CategoryInfo();
 
-        categoryInfo.setId( category.getId() );
-        categoryInfo.setCategoryCode( category.getCategoryCode() );
-        categoryInfo.setName( category.getName() );
-        categoryInfo.setDescription( category.getDescription() );
+		categoryInfo.setId(category.getId());
+		categoryInfo.setCategoryCode(category.getCategoryCode());
+		categoryInfo.setName(category.getName());
+		categoryInfo.setDescription(category.getDescription());
 
-        return categoryInfo;
-    }
+		return categoryInfo;
+	}
 }
