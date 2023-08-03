@@ -14,14 +14,11 @@ public class TaxMapperImpl implements TaxMapper {
 		if (taxInfo == null) {
 			return null;
 		}
-
 		Tax tax = new Tax();
-
 		tax.setId(taxInfo.getId());
 		tax.setHsnCode(taxInfo.getHsnCode());
 		tax.setTaxPercentage(taxInfo.getTaxPercentage());
 		tax.setTaxDescription(taxInfo.getTaxDescription());
-
 		return tax;
 	}
 
@@ -30,14 +27,11 @@ public class TaxMapperImpl implements TaxMapper {
 		if (tax == null) {
 			return null;
 		}
-
 		TaxInfo taxInfo = new TaxInfo();
-
 		taxInfo.setId(tax.getId());
 		taxInfo.setHsnCode(tax.getHsnCode());
 		taxInfo.setTaxPercentage(tax.getTaxPercentage());
 		taxInfo.setTaxDescription(tax.getTaxDescription());
-
 		return taxInfo;
 	}
 }
